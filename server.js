@@ -4,6 +4,7 @@ var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobil
 
 mobileApp.tables.add('CheckIn'); // Create a table for 'CheckIn' with default settings
 mobileApp.tables.add('Users'); //Create a table 
+mobileApp.tables.add('E_Employee'); //
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
