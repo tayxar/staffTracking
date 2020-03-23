@@ -6,6 +6,7 @@ mobileApp.tables.add('CheckIn'); // Create a table for 'CheckIn' with default se
 mobileApp.tables.add('Users'); //Create a table 
 mobileApp.tables.add('E_Employee'); //Create Table E_Employee
 mobileApp.tables.add('EmployeeSite'); //EmployeeSite
+mobileApp.tables.add('Site');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
