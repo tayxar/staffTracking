@@ -7,6 +7,8 @@ mobileApp.tables.add('E_Users'); //Create a table
 mobileApp.tables.add('E_Employee'); //Create Table E_Employee
 mobileApp.tables.add('E_EmployeeSite'); //EmployeeSite
 mobileApp.tables.add('E_Site');
+mobileApp.tables.add('E_Designation');
+mobileApp.tables.add('E_DesignationTrack');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
