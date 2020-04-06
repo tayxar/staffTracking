@@ -9,6 +9,7 @@ mobileApp.tables.add('E_EmployeeSite'); //EmployeeSite
 mobileApp.tables.add('E_Site');
 mobileApp.tables.add('E_Designation');
 mobileApp.tables.add('E_DesignationTrack');
+mobileApp.tables.add('Unique_empID_CheckIn');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
